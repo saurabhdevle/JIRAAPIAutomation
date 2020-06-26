@@ -1,0 +1,29 @@
+package com.jira.apis;
+
+public class Payload {
+	public static String reqBody() {
+		return "{\r\n" + 
+				"	\"username\":\"AdityaPatil\",\r\n" + 
+				"	\"password\": \"adityapatil29\"\r\n" + 
+				"	\r\n" + 
+				"}";		
+	}
+	public static String createIssue() {
+		return "{\n" + 
+				"    \"fields\": {\n" + 
+				"       \"project\":\n" + 
+				"       {\n" + 
+				"          \"key\": \"SAUR\"\n" + 
+				"       },\n" + 
+				"       \"summary\": \"Creating a new story for false ceiling\",\n" + 
+				"       \"description\": \"Living room false ceiling\",\n" + 
+				"       \"issuetype\": {\n" + 
+				"          \"name\": \"Story\"\n" + 
+				"       }\n" + 
+				"   }\n" + 
+				"}";	
+	}
+
+
+
+}

@@ -1,0 +1,13 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "DEMO-24"
+       },
+       "summary": "Creating a defect into Jira",
+       "description": "Giving demo for creating a story",
+       "issuetype": {
+          "name": "Story"
+       }
+   }
+}

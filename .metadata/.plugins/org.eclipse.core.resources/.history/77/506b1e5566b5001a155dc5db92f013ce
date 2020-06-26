@@ -1,0 +1,10 @@
+package JiraDemo;
+
+public class Payload {
+
+	public static String reqBody() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

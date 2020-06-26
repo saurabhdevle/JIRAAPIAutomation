@@ -1,0 +1,13 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "SAUR"
+       },
+       "summary": "Creating a new story for false ceiling",
+       "description": "Living room false ceiling",
+       "issuetype": {
+          "name": "Story"
+       }
+   }
+}

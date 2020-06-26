@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7291" started-at="2020-06-24T16:39:11Z" finished-at="2020-06-24T16:39:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7291" started-at="2020-06-24T16:39:11Z" finished-at="2020-06-24T16:39:19Z">
+      <class name="JiraDemo.JiraApiUser">
+        <test-method status="PASS" signature="createIssueData()[pri:0, instance:JiraDemo.JiraApiUser@436813f3]" name="createIssueData" duration-ms="14" started-at="2020-06-24T16:39:11Z" finished-at="2020-06-24T16:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssueData -->
+        <test-method status="PASS" signature="createSessionData()[pri:0, instance:JiraDemo.JiraApiUser@436813f3]" name="createSessionData" duration-ms="7221" started-at="2020-06-24T16:39:11Z" finished-at="2020-06-24T16:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSessionData -->
+      </class> <!-- JiraDemo.JiraApiUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+package JiraDemo;
+
+public class JiraPayload {
+	
+	
+	public static String getSessionData() {
+		return "{\r\n" + 
+				"\"username\":\"saurabhdevle\"\r\n" + 
+				"\"password\":\"123456\"\r\n" + 
+				"}";
+		
+	}
+
+}

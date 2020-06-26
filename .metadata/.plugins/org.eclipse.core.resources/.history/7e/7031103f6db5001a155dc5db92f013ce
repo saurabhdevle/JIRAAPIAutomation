@@ -1,0 +1,35 @@
+package JiraDemo;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class JiraApiUser {
+	
+	public static final String CREATE_PATH="/rest/auth/1/session";
+	
+	@Test(enabled = true)
+	public static void createSessionData() {
+		RestAssured.baseURI = "http://localhost:8090";
+		
+		String body=JiraPayload.getSessionData();
+		String updatedData=String.format(body, "saurabhdevle","123456");
+		
+		System.out.println("Updated data"+updatedData);
+        
+		
+		given().log().all().header("content-type", "application/json")
+		//given().log().all().header("Content-Type","application/json")
+        .body(updatedData).log().all()
+        .when()
+        .post(CREATE_PATH)
+        .then().log().all().assertThat().statusCode(200);
+	
+	
+	
+	}
+	
+
+}
